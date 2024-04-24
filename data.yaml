@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['have-wooden-eyes', 'perfect-wooden-plate']
+
+roboflow:
+  workspace: nogear
+  project: wood-plate-defect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nogear/wood-plate-defect/dataset/1
